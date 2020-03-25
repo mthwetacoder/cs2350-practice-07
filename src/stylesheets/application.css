@@ -1,31 +1,11 @@
-@import url('~normalize.css/normalize.css');
+@import url("~bootstrap/dist/css/bootstrap.css");
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: black;
-  width: 705px;
-  margin: auto;
-  color: white;
+.box {
+  float: left;
+  width: 100px;
+  height: 100px;
 }
 
-canvas {
-  background-color: white;
-  margin: 10px auto;
-  border: 10px outset lightgrey;
-}
-
-h1 {
-  color: white;
-}
-
-fieldset {
-  display: inline;
-  display: none;
-  border-color: lime;
-}
-legend {
-  color: lime;
-}
+.red {background-color: red;}
+.blue {background-color: blue;}
+.green {background-color: lime;}
