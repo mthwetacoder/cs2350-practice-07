@@ -4,4 +4,28 @@
   box-sizing: border-box;
 }
 
-/* TODO */
+body {
+  background-color: black;
+  width: 705px;
+  margin: auto;
+  color: white;
+}
+
+canvas {
+  background-color: white;
+  margin: 10px auto;
+  border: 10px outset lightgrey;
+}
+
+h1 {
+  color: white;
+}
+
+fieldset {
+  display: inline;
+  display: none;
+  border-color: lime;
+}
+legend {
+  color: lime;
+}
